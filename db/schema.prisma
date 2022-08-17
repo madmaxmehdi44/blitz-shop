@@ -13,7 +13,7 @@ datasource postgresql {
   url      = env("DATABASE_URL")
 }
 
-generator clientt {
+generator client {
   provider        = "prisma-client-js"
   previewFeatures = ["transactionApi", "connectOrCreate"]
 }
